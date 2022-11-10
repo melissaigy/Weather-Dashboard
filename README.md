@@ -1,14 +1,14 @@
 # Weather Dashboard
 
 ## Description
-* The application features time blocks for the user to enter events from 9am-5pm
-* The save button saves the event entered for future use
-* The application changes dynamically based on the time, past events will be gray, current will be red, and future events green
+* The application features a search bar to find locations and check the weather in that area
+* The search button finds the city and displays a weather forecast 
+* The latest searched cities are saved under the search bar and are able to be clicked on to see the forecast again
 
 ## Usage
 
 The following image shows the web application's appearance and functionality:
 
-![The Work Day Scheduler features time blocks from 9-5 to schedule events.](./assets/melissaigy.github.io_Work-Day-Scheduler-App_.png)
+![The weather dashboard gives a forecast for a selected city.](./_C__Users_mgree_Desktop_Dev%2520Projects_CHALLENGE%25206_index.html.png)
 
 Link to webpage: https://melissaigy.github.io/Weather-Dashboard/
