@@ -165,7 +165,7 @@ function getResponseWeather(cityName) {
         if (response5day.list[i].dt != response5day.list[i + 1].dt) {
           var FivedayDiv = $("<div>");
           FivedayDiv.attr("class", "col-3 m-2 bg-primary");
-          var d = new Date(0); // The 0 there is the key, which sets the date to the epoch
+          var d = new Date(0); 
           d.setUTCSeconds(read_date);
           var date = d;
           console.log(date);
@@ -180,7 +180,7 @@ function getResponseWeather(cityName) {
             (day < 10 ? "0" : "") +
             day;
           var Fivedayh4 = $("<h6>").text(dayOutput);
-          //Set src to the imags
+          
           var imgtag = $("<img>");
           var skyconditions = response5day.list[i].weather[0].main;
           if (skyconditions === "Clouds") {
